@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-12">
             <h1>{{$post->title}}</h1>
-            <p class="text-muted">Published at:{{$post->created_at->format('d/m/Y')}}</p>
+            <p class="text-muted">Published at : {{$post->created_at->format('d/m/Y')}}</p>
         </div>
 
     </div>
